@@ -18,7 +18,7 @@ function trackChecks () {
 function trackRadios () {
 	let checkRadios = $("input[type=radio]:checked").length;
 	console.log(`Выбрано кнопок: ${checkRadios}`);
-	$("input[type=radio]").prop("disabled",false)
+	$("input[type=radio]").prop("disabled",true);
 }
 
 $(document).ready(init);
